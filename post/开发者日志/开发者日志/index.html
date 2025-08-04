@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="理性接触失效时，请先让他们身体接触">
+<title>开发者日志</title>
+
+<link rel='canonical' href='https://paperhandme.github.io/post/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="开发者日志">
+<meta property='og:description' content="理性接触失效时，请先让他们身体接触">
+<meta property='og:url' content='https://paperhandme.github.io/post/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/'>
+<meta property='og:site_name' content='药店免费送纸'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='客鹏' /><meta property='article:published_time' content='2025-08-03T13:03:23-04:00'/><meta property='article:modified_time' content='2025-08-03T13:03:23-04:00'/><meta property='og:image' content='https://paperhandme.github.io/kunting.jpg' />
+<meta name="twitter:title" content="开发者日志">
+<meta name="twitter:description" content="理性接触失效时，请先让他们身体接触"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://paperhandme.github.io/kunting.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_5197e1a439953ba.png" width="300"
+                            height="301" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">药店免费送纸</a></h1>
+            <h2 class="site-description">这纸我一定要递给别人；纸的文档聚集地</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://paperhandme.github.io/zh-cn/" >中文</option>
+                                
+                                    <option value="https://paperhandme.github.io/ar/" >عربي</option>
+                                
+                                    <option value="https://paperhandme.github.io/" selected></option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/">
+                
+                    <img src="/kunting.jpg" loading="lazy" alt="Featured image of post 开发者日志" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/rps/" >
+                RPS
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/%E5%BC%80%E5%8F%91%E8%80%85%E6%97%A5%E5%BF%97/">开发者日志</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            理性接触失效时，请先让他们身体接触
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 03, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="开发者日志">开发者日志
+</h1><p>应该相信记忆的最初总是容易被美化的，就像白客完全不认为自己当初参演董成鹏的电影是别有用心的。当时是下午，罗宏明独自在家里面看足球，董成鹏的电话就是这时候打过来的。他们早已是能绕过经纪人互相打电话的关系了，那天空气清爽，阳光充足，所有的树叶苍翠欲滴，和天空的蓝色形成鲜明的对比。在这阳光灿烂的背景下，一切都很清晰：颜色，绿色、白色与蓝色，阳光投到窗户脚下的阴影。罗宏明目不转睛地盯着近在咫尺的窗外，董成鹏的声音从话筒的另一边传来。</p>
+<p>“老白，拍电影不，角色你随便挑。”</p>
+<p>他的声音一如即往带着夏天化掉的冰淇凌般的黏腻，罗宏明意识到自己在微笑，手心有些濡湿。2024年的夏天如同叠印一般，和2012年的夏天重合在一起，也跟之后将会到来的所有美好的日子重合在一起，并将永远伴随着他，毕竟董成鹏是他差点没能深交的人。</p>
+<p>“你的电影我肯定来啊。”</p>
+<p>但就算罗宏明如何试图维持自己叙事的坦诚，坚定自己说真话的决心，可是总有什么东西扭曲着他的意图，直到后来才赤裸地袒露出来，那个东西叫欲望。</p>
+<p> </p>
+<p> </p>
+<p><strong>第一个夜晚</strong></p>
+<p>鲜亮的红色和暗沉的金色，布景的工作人员来来往往，已经是冬天了，可太阳仍旧高高地陪伴着他们，橘红橘红的，阳光像血一样泼洒。</p>
+<p>“怎么样，白老师，这是为了最后的重头戏。”</p>
+<p>董成鹏已经换上了唐朝的服饰，藏青色，罗宏明觉得自己的眼睛变成了放大镜，不断地搜寻着细节，他看到布料上有光像河一样流淌着。董成鹏为了拍戏瘦了很多，皮腰带勒出腰看起来像纸片一样薄。他遮住了全部，连头上也带着包巾帻，但他裸露得更多。白客难以掩饰，他的眼睛被各种各样的色彩充斥着，现场各类人群的声音像是飞机的发动机在耳边轰鸣。他贴上胡须的脸显现出近乎狡诈的笑容。</p>
+<p>“好看。”</p>
+<p> </p>
+<p>11月3日开机，前半段时间会集中拍戏，大家吃住也都在一起，罗宏明的房间理所应当地在董成鹏的隔壁。白客擅长等待，他有着坚实的内心。下戏的时候董成鹏看起来有些疲惫，罗宏明听到了隔壁的淋浴声，和自己的呼吸声交缠在一起，如急雨般浇在他的心上。罗宏明似乎能看到黑暗中有闪亮的泡沫在漂浮。他没有再听到任何声音。</p>
+<p>他将手撑在了栏杆上，上半身前倾，将一条腿搬上来，双臂一撑，脚步轻盈地落地。罗宏明打了个寒颤，不知道是因为冬夜的寒冷 ，还是作为闯入者的紧张。冬天的夜晚是清澈的，他看到的一切像是被冻在了一层透明的冰面之后，仿佛他伸出手一抓，就会碎成薄薄的碎片。他拉开阳台拉门闪身而入，他感受到一种令人疲倦的温暖，和一股芳香，董成鹏存在的这一事实仿佛幽灵，却又有如实质充斥着整个房间。罗宏明摘下了自己起雾的眼镜，他不用眼睛，一步一步靠近着埋藏在蓬松的鸭绒被里，散发着热力的人。他小心翼翼地蹲在了床头，从怀里掏出沾有乙醚的手帕。他没有办法为自己找出任何理由。只有不断的劝慰，当渴求远远凌驾于庸碌无趣的生活上的时候，人难免会堕落于某种恶习。</p>
+<p>这并没有那么困难。董成鹏一无所知地睡在黑暗中，眼上蒙着眼罩，耳朵里戴着耳塞。他掉进了更深、更黑暗的梦中。 罗宏明打开台灯，灯光暖得让人心都发慌。他小心翼翼地躺在董成鹏的身后，仿佛他会随时清醒一样。他用一只手臂紧紧缠绕住董成鹏的腰，让他的后背完全贴住自己的胸膛，臀部和胯部契合。罗宏明深深叹了一口气，他感受到他想要的肉体带来的温馨和柔韧的触感，他的心宛如生机盎然的树枝爆开了新芽。他舔舐着董成鹏的后颈，一下又一下，间或轻吻，却不敢留下痕迹。董成鹏陷在一个湿漉漉的梦里。罗宏明用手搂着扳过他的脑袋，他啃噬着对方的嘴唇，将喘息留在董成鹏的嘴里。他们的嘴唇变得潮湿，罗宏明无意识挺动着自己的下半身，他被柔软的接纳着，布料不断摩擦，董成鹏昏睡的脸庞因为缺氧而泛出红色，罗宏明的嘴堵在那里让他的舌头无处可逃，董成鹏的舌头也陷在了湿漉漉的梦里，不断地被翻动着。</p>
+<p>董成鹏的手无力地搭在床沿，掌心红彤彤的，黏液让它在台灯下泛着诡异的光芒。他的脸上溅上了粘稠的液体，罗宏明的脑袋热得发昏，双手颤抖地点下了拍照按钮。他压抑着自己仍旧急促的呼吸，捧起董成鹏的脸开始仔细地擦拭。</p>
+<p>这时到了他们真正睡去的时间。</p>
+<p> </p>
+<p> </p>
+<p><strong>第二个夜晚</strong></p>
+<p>台灯下的董成鹏是鲜艳的。罗宏明看着他在暖黄色的光照下，总会想起夏天，想起新千年时候的电影，是那种过曝的，泛着旧，在回忆里熠熠生光的颜色。在他的意识里，这些景色原本都是灰蒙蒙的，但是无休无止上映的电影统一为那个时代上了一层颜料，现在连同他的记忆无法区别曾经存在的究竟是什么样的。罗宏明怏怏不乐地看着平静的董成鹏。这样的夜晚，他已然丧失了对外部世界的正常反应，罗宏明的视野有多大，董成鹏的形象便有多大；幻想有多丰富，他沉睡的神情就有多少种暗示。其中下流的暗示压过纯情的暗示，格外突出。</p>
+<p>罗宏明从未觉得自己的心有过波动，他脱下董成鹏的睡衣，手掌游走在胸腹处，感受着皮肤的质感和撑起它的肌肉与骨骼。李善德在业已消除，悬在空中的世界里，骑着马跑过大唐的河山，并将在胶片上留存的那几个时刻中永远如此。而现实中被沉重拖拽着，一直向前流动的，是他能与之在距离上无限接近的董成鹏。罗宏明将他翻了个身，白色的内裤紧贴着他的臀部，显出将人引向歧路的弧度。罗宏明梦到过这样的场景，他无比真切地想要触碰，却总是摸不到实质。可现在他像是在扒新鲜的桃子，一寸一寸往下褪着，曾经在视频中略见一二的臀肉露出，他用手包裹着揉搓，是比想象中还要有弹性的触感。</p>
+<p>他挤出准备好的润滑液，急切地将手指探进那隐秘的入口。那是一种失去屏障的滑腻湿热的感觉，他感觉自己的手指在被吞噬，不断往前进着。他像是带上了被火焰炙烤的指套，扭动着妄图抢出更多的空隙，好安放自己快要跳出来的心脏。他不知道这会感觉这么好。董成鹏颤抖了一下，罗宏明仔细按压着他触碰到的地方，他听到董成鹏在睡梦中发出模糊的难以忍耐的呜咽。而他自己则用虔诚地心情，保持着沉默。</p>
+<p>董成鹏用越发纷乱的呼吸声回应着他。罗宏明舔吻着他的耳廓，另一只手挤按着他的乳头。他揉搓得使周边皮肤泛红，被他掌握的东西难耐地挺立着，仿佛受了什么委屈。他开始变得不再急迫，有条不紊地掌控着双手的节奏。而他喜欢说唱，喜欢有韵律感的东西。罗宏明的手感觉到了潮湿，董成鹏突然挺直了自己的身子，脑袋后仰，发出了一声近乎哭泣般的声音。罗宏明闻到了他洗发水的味道，他期待着今后一个又一个的夜晚。</p>
+<p> </p>
+<p> </p>
+<p><strong>第三个夜晚</strong></p>
+<p>罗宏明也觉得自己的运气很好，仿佛上天早已把适合他的事物摆在了他的眼前，当他得到之后就会发现，原来现在他想要的命运早在他能意识到之前就已经给他准备好了。</p>
+<p>手机屏幕上红底白色的数字一直跳动着，先是掠过董成鹏熟睡的脸庞，最后聚焦在了他的胸膛上，灯光仿佛一层蜂蜜涂抹在上面，未被照见的暗影形成沟壑。之后是放大，放大，不断地放大，乳头充血挺立，因为表面的唾液而反射着亮晶晶的光，周围是一片红色。罗宏明注视着屏幕里的风景，就像董成鹏白天注视着监视器里的他一样，罗宏明一想到那目光，就如同走在屋脊上，使他一阵阵起鸡皮疙瘩。晶体管显出颜色形成白客，或者是苏谅初见李善德时候的脸，他被注视着，却不可抑制地想起他每个夜晚自己投向他人身体上每一处的窥视。</p>
+<p>新买的玩具靠着几节电池蠕动在另一个人的身体里，没有丝毫停歇地折磨着他的生命，董成鹏不断绞紧磨蹭着自己的双腿。罗宏明专心致志地吮吸着董成鹏的胸部，尽管它早已红肿。董成鹏明天起来后会不得不面对自己无端变得敏感的胸部，布料的摩擦将给他带来一阵阵颤栗与困惑。罗宏明会不经意地碰触，感受他的惊慌。他曾经在他下马时搂了他一下，他感受到了董成鹏的轻颤，手臂环着的腰也软了。董成鹏害羞般喊了一声“老白”，而罗宏明擅长若无其事地装傻。</p>
+<p>他计算着今夜董成鹏高潮的次数，空调吹出来的热风轻轻鼓动着房间里的窗帘，罗宏明单膝跪在酒店柔软的地毯上，在稀薄的液体喷射而出的时候他关闭了遥控器，董成鹏无意识踢蹬的腿终于放松了下来，之后便如同羔羊献祭的姿势，头歪在一边轻柔地搭在他自己的肩膀上。</p>
+<p>汗水从罗宏明额头上滴落，他才像是做了一场梦。罗宏明其实也不知道他做的这些意味着什么，他将永远不会知道事件的结果，他只能关注董成鹏身体上的变化。他带着爱怜抚摸着董成鹏的脸颊，之后张开他的嘴，解开了自己一直憋闷着的兄弟。</p>
+<p> </p>
+<p><strong>第四个夜晚</strong></p>
+<p>口腔是温暖湿润的巢穴，董成鹏起来的时候会觉得疲惫，觉得嗓子难受，但这都是无可避免的。他扶着他的脑袋一下又一下入侵着那个表达出人内在灵魂的区域，喉咙紧箍着他的龟头。他喜欢听董成鹏说话，他们会谈些他们职业之外的东西，有的是跟他们年轻时的共同记忆相关。他会长久地凝视着董成鹏的脸，它在绝大部分时间是笑着的，但也时常茫然，没有任何其他记忆的闪过，他们在夜晚有充足的时间。</p>
+<p>夜晚温柔而澄澈的光线中，岁月仿佛混淆了，时间变得透明了。罗宏明确定他现在肌肤相亲的人不是幽灵吗，他们真正遇见过吗？如果他走在街上，董成鹏会注意到他吗？</p>
+<p>同类之间亲近是人在理智之前出现的渴望，他不喜欢董成鹏往后缩，将自己困在迷茫与疲惫里，不断地在更私密的谈话中抬头与低头，好像想确定把秘密告诉他会不会有任何危险。“你真的对这感兴趣吗？”</p>
+<p>“是的。”</p>
+<p>他喜欢听董成鹏谈起个人微不足道的事情。在2012之前，罗宏明对他没有任何参照点：这个人像他的目光一样不可捉摸和茫然，甚至看起来他的年龄本身就很不确定，罗宏明时常觉得他们在一起长大。</p>
+<p>乳头涨大，被压在嗡嗡振动的跳蛋之下，颜色变得越发艳丽。现在它已经敏感到任何触碰都能给它的主人带来颤栗。粗大的按摩棒被塞进后穴里，董成鹏夹紧了腿，前后都如同失禁般躺着水。罗宏明同样赤裸的胸膛紧贴着董成鹏汗湿的后背，他感受到怀里的人一阵一阵不规律的痉挛着，嘴巴张开无意识地寻求着更多的空气。他一下又一下楔在那个人的腿间，不知道是谁的液体使得那里湿滑一片。他感受着对方体内按摩棒传来的震动，手握着的臀部像棉花般软，促使他不断在那里留下指印。他舔舐着所有他目光所及的地方，在寂静的夜里发出狗一般的喘息。</p>
+<p>罗宏明从很早的时候开始关注他，真正亲近是这两年。他坐在监视器前面，他去设计调度，他给别人打气，他一遍一遍调整剧本，罗宏明只有看到他导演时才能接触到他更成熟、更痛苦的一面。偶尔罗宏明会借着角色的外壳，去问他问题。他会预料到罗宏明会问他这些吗？他有的时候还是像刚从吉林到北京那般，显得不太自在。从他棕色的目光中猜不到任何的想法，他的命运让罗宏明感到困惑。</p>
+<p> </p>
+<p> </p>
+<p><strong>第五个夜晚</strong></p>
+<p>罗宏明现在承认记忆的自我修正。潜意识设计好的路途，我们的理智往往不能理解，当你像用橡皮不断地擦拭修改自己的记忆的时候，你原本没有感知到的意图才会变成形象，从杂乱的线条中浮现出来。扭曲是为了还原，罗宏明被自己的理智蒙蔽了，但现在他厘清了原本模糊的事实。</p>
+<p>今天的天气很好，日间的时候天空高得吓人，白色的太阳像是蓝布上的小圆点。生活好好的，阳光普照。董成鹏缠绕在身上的过去像是幽灵，为什么非要去揭开无法揭开的谜。又有什么好处呢？</p>
+<p>这样的日子晚上也是明亮的，罗宏明睁大眼睛，可以看清夜晚里所有事物的轮廓。他喜欢董成鹏侧躺时连绵的曲线，可现在他被仰卧着打开双腿。罗宏明用手抵着他的膝盖，叹息着将阴茎终于塞入他早已准备好的后穴。连日的调教让内壁食髓知味，贪婪地收缩吮吸着闯入者，罗宏明一刻不停地挺动着自己的腰，像是要顶到结肠处，董成鹏敏感得每一次被插入都像是高潮，连续的刺激让他在睡梦中哭泣了出来。</p>
+<p>董成鹏因为前列腺高潮被刺激出来的泪水，挂在酡红色的脸颊上，甚至比后穴流出来的肠液还让人感到色情。他连睡着时都在勾引人。可怜的阴茎耷拉在那里仿佛快要失去自己的功能，罗宏明无比舒适地感受着火热无比的肠肉，吸咬着早被摸得日渐变大的乳头和胸部。他用一只手抚摸着董成鹏的脊背，感受那无与伦比的快感是如何犹如实质般从脊柱传输到他清醒着的植物脑。罗宏明抽插得越来越快，钉在董成鹏体内的肉棒不断膨胀，他死死地抱住董成鹏，他仿佛真正接触到了对方跳动的红彤彤的心脏，他难以抑制汹涌着的一切终于射了进去，像是为了两个人的链接。</p>
+<p>罗宏明在那个晴朗的夜晚内射了好几次，白色的精液在每次抽插时都被不断挤出，再被不断填充进去，不知停歇。很多人说罗宏明是平静的，甚至性格也很模糊，所以他感觉现在在燃烧的是另一个人，一切他的感情都随着董成鹏的沉睡，而被掩盖在一层悲伤的面纱之下。他只有不停地啄吻，侵犯和操弄，不断倾听那没有意识和理智的身体的声音，才能让他的爱人从他虚无的想象中复活过来。</p>
+<p>董成鹏那晚梦到了一座雪山，他泡在温泉里，肚子里像被倾倒进岩浆，热热的。</p>
+<p> </p>
+<p> </p>
+<p><strong>第六个夜晚</strong></p>
+<p>罗宏明的戏份是在一年的最后一天杀青的。他和董成鹏一直瞎拍到了12点，直到董成鹏拿出仙女棒说要和他跨年。距离他们第一个面颊吻已经过去了一年，罗宏明在手机时间跳到0点0分的时候，扔掉手中的烟花，抱住了董成鹏。</p>
+<p>“我们还要一起拍戏，我们得在一块。”</p>
+<p>罗宏明他通常不会说这些，但他的心变成了一口水塘，水塘底下，层层叠叠的回响声属于这两个做梦的人和他们一起经历过的角色。闪闪发光的水一直保留着这些回声，在寂静的夜里，这些声音互相混淆。</p>
+<p>他转过头想看到董成鹏的反应，他会像那些害怕自己影子的人一样惊跳起来吗？他说的完全就是没头没尾的话。</p>
+<p> </p>
+<p>罗宏明看到了一张平静的，轻松的脸。</p>
+<p> </p>
+<p>卢梭崇尚理性，“我思故我在“，他认为人类的存在是从思考而来。但在纯粹的理性之前，人们似乎更早地生长出了其他东西，可能与记忆和谎言都有关。人应该在理性之前就互相触碰到了。董成鹏无法否认自己喜欢这个拥抱，就好像他们已经拥抱了成千上百次那样。冬夜的寒风吹过，他看到的一切突然变得很开阔，墨蓝色的天空高远，他能清楚地感知到冰凉的空气是如何呼啸过他的气管，他的呼吸顺畅了起来。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%AE%A2%E9%B9%8F/">客鹏</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/%E4%B8%80%E5%BA%A6%E9%9D%92%E6%98%A5/%E4%B8%80%E5%BA%A6%E9%9D%92%E6%98%A5/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">一度青春</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 药店免费送纸
+    </section>
+    
+    <section class="powerby">
+        
+            在各处兜售、赠予纸中 <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
